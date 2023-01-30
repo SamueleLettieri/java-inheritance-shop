@@ -2,12 +2,12 @@ package org.lessons.java.shop2;
 
 import java.util.Random;
 
-public class Smarphone extends Prodotto {
+public class Smartphone extends Prodotto {
 
 	int codiceIMEI;
 	int memoria;
 	
-	public Smarphone(String nome, double prezzo, int codiceIMEI, int memoria) {
+	public Smartphone(String nome, double prezzo, int codiceIMEI, int memoria) {
 		super(nome, prezzo);
 		this.codiceIMEI = codiceIMEI;
 		this.memoria = memoria;
